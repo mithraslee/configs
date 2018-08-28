@@ -1,1 +1,3 @@
-# configs
+# Configs
+
+Some personal configurations.
