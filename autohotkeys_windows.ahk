@@ -26,3 +26,4 @@ Space::Space
 <!n::Send, ^n
 <!g::Send, ^g
 <!h::Send, ^h
+<!e::Send, ^e
