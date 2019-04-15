@@ -578,6 +578,62 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "Change fn + ; to left_option + left_arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "left_arrow",
+                "modifiers": [
+                    "left_option"
+                ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Change fn + ' to left_option + right_arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+                "key_code": "right_arrow",
+                "modifiers": [
+                    "left_option"
+                ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
