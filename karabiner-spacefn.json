@@ -339,6 +339,30 @@
       ]
     },
     {
+      "description": "Change fn + v to Del",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Change fn + u to backspace",
       "manipulators": [
         {
@@ -369,6 +393,30 @@
           "type": "basic",
           "from": {
             "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change fn + g to backspace",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "g",
             "modifiers": {
               "mandatory": [
                 "fn"
@@ -489,30 +537,6 @@
           "type": "basic",
           "from": {
             "key_code": "b",
-            "modifiers": {
-              "mandatory": [
-                "fn"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "spacebar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change fn + v to spacebar",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "v",
             "modifiers": {
               "mandatory": [
                 "fn"
